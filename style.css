@@ -129,7 +129,7 @@ h3 {
 
 .nav__link:link,
 .nav__link:visited {
-  color: #6d4285;
+  color: #1c0329;
   padding: 1rem;
   font-size: 2rem;
   font-weight: 500;
@@ -265,13 +265,13 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 996px) {
+@media screen and (max-width: 996px) {
   .header {
     height: 60vh;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header {
     height: 90vh;
   }
@@ -294,7 +294,7 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 568px) {
+@media screen and (max-width: 568px) {
   .hamburger img {
     width: 3rem;
     height: 3rem;
