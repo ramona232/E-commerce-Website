@@ -2,7 +2,6 @@
   --white: #fff;
   --default: #6d4285;
   --darkColor: #222;
-  --black: #000;
 }
 
 *,
@@ -52,7 +51,7 @@ h3 {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .container {
     padding: 0 3rem;
   }
@@ -67,7 +66,7 @@ h3 {
 /* HEADER */
 .header {
   position: relative;
-  height: 90vh;
+  height: 80vh;
   background-color: var(--white);
 }
 
@@ -86,6 +85,10 @@ h3 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.cart {
+  cursor: pointer;
 }
 
 .cart img {
@@ -135,11 +138,7 @@ h3 {
   font-weight: 500;
 }
 
-.cart {
-  cursor: pointer;
-}
-
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .nav__menu {
     padding: o 2rem;
   }
@@ -206,14 +205,13 @@ h3 {
   align-self: center;
 }
 .hero__right {
+  margin-top: 5rem;
   flex: 1 1 60%;
   background-image: url(./img/eat-2826764_1280.png);
-  background-position: 50% 50%;
+  background-position: 50%;
   background-size: 100%;
   background-repeat: no-repeat;
   box-shadow: -8px 9px 24px -6px rgba(147, 52, 153, 0.4);
-  -webkit-box-shadow: -8px 9px 24px -6px rgba(147, 52, 153, 0.4);
-  -moz-box-shadow: -8px 9px 24px -6px rgba(147, 52, 153, 0.4);
   border-radius: 50%;
 }
 
@@ -244,7 +242,6 @@ h3 {
   padding: 1rem;
   position: absolute;
   right: 50%;
-  bottom: 2%;
   animation: bounce 2s linear infinite;
 }
 
@@ -341,11 +338,6 @@ h3 {
   margin-top: 10rem;
 }
 
-.product__footer img {
-  width: 1.6rem;
-  height: 1.6rem;
-}
-
 .title {
   text-align: center;
   margin-bottom: 7rem;
@@ -402,6 +394,10 @@ h3 {
   font-size: 3rem;
   font-weight: 700;
   color: var(--default);
+}
+.product__footer img {
+  width: 1.6rem;
+  height: 1.6rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -494,4 +490,10 @@ h3 {
     font-size: 1.4rem;
     padding: 1rem 2rem;
   }
+}
+.new__center1 {
+  margin-top: -7rem;
+}
+.new__center2 {
+  margin-top: 3rem;
 }
